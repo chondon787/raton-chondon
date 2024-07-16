@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        .box{
+            border: 5px solid skyblue;
+            width: 300px;
+            height: 300px;
+        }
+        #box-1{
+            overflow: auto;
+        }
+        #box-2{
+            overflow: scroll;
+        }
+        .ellipsis{
+            width: 200px;
+            white-space: nowrap;
+            border: 2px solid skyblue;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            /* text-overflow: clip; */
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <p title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus alias, quis labore impedit omnis quibusdam. Doloremque tempore aut minima?" class="ellipsis  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus alias, quis labore impedit omnis quibusdam. Doloremque tempore aut minima?</p>
+    </header>
+    <section>
+         <div id="box-1" class="box">
+            <h1>Text-box-1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime animi, laborum aperiam aut sunt, quisquam voluptatum ex in quam dolorem eveniet cumque, quidem molestiae excepturi? Incidunt dolores a, adipisci tempore doloremque ab quam deleniti velit aperiam labore vero repellendus illo! Accusamus sunt explicabo voluptates, suscipit harum exercitationem aliquid aliquam unde ea repudiandae voluptas consequatur possimus vero placeat, neque corporis delectus. Officiis dignissimos debitis doloremque amet fugit, ullam eveniet, corporis vel sed ipsam ex nulla voluptas natus minus earum inventore doloribus neque repudiandae vero. Natus excepturi laudantium animi rerum. Doloribus itaque odio voluptates. Rerum architecto, labore aliquid deserunt libero itaque at rem nihil odio magnam consequuntur maxime quidem natus autem eligendi et voluptas accusantium nam id asperiores, eum enim tempora atque officiis! Enim accusamus aut aliquam delectus, expedita inventore nostrum tempore beatae, architecto libero harum quidem perspiciatis temporibus sunt dolorum maxime perferendis tempora dolorem, possimus voluptates magni. Soluta ut explicabo sequi officia non corrupti similique itaque rerum totam temporibus sunt deleniti asperiores tenetur eos laborum praesentium veniam laudantium neque delectus, accusantium velit maiores a! Temporibus aspernatur sint placeat libero cum, atque ipsa, sequi quidem, tempore assumenda eum voluptate obcaecati in mollitia totam? Quas animi error maxime modi cumque id excepturi.</p>
+         </div>
+         <div id="box-2" class="box">
+            <h1>Text-box-2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut in mollitia veritatis hic sequi impedit laborum sapiente accusantium eius, quisquam animi, magnam perferendis fugit enim rerum aperiam reiciendis a. Nemo nulla sint omnis sequi vero tempore fugiat molestias exercitationem debitis a saepe voluptate suscipit eum ullam deserunt quam ipsam praesentium at, explicabo aut delectus excepturi. Consectetur qui, architecto sed ratione ducimus atque dicta asperiores beatae dolorem porro eum voluptas ad a illo odit eius autem? Impedit accusantium, fugit similique, eius laborum vero, nesciunt quae animi pariatur dolorem commodi nostrum! Earum fugit eius provident quia eum nobis dolore ipsa, saepe ratione quam exercitationem unde rerum? Ullam similique ad consequatur ratione maiores vero recusandae, laborum obcaecati laudantium! Quaerat voluptates consequatur, magnam adipisci amet sunt tenetur inventore quo itaque provident atque maiores earum quibusdam rerum tempora consectetur. Ducimus quasi officiis nisi dolorum consequatur eius veritatis itaque unde recusandae! Deserunt repellat ex odit et veritatis eaque obcaecati expedita. Sint hic optio impedit odit consequuntur esse aut amet nobis? Quod, animi voluptatem. Nobis officia consequatur numquam modi tenetur repudiandae atque sint illum aspernatur quia, unde cumque natus quaerat assumenda eos impedit quos tempora. Cumque ut optio deleniti. Eos deleniti aliquid nisi quia ratione excepturi ut!</p>
+         </div>
+    </section>
+    
+</body>
+</html>
